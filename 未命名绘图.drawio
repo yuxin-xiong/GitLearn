@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T11:26:29.435Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="23.1.5" etag="ONfIkmyu9MiQ8gOQPPwM" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T11:49:25.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="K5Ju-_rfkUpg7iwE3VQM" version="23.1.5" type="github">
   <diagram name="第 1 页" id="MczWRd7Q6ZMrr0-e14SX">
-    <mxGraphModel>
+    <mxGraphModel dx="1084" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-122" value="入侵检测线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-123" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="475" y="-365" width="40" height="710" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
