@@ -1,14 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T11:49:25.104Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="K5Ju-_rfkUpg7iwE3VQM" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T12:05:13.641Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="qfMqjk1zRwt7dCtBJU74" version="23.1.5" type="github">
   <diagram name="第 1 页" id="MczWRd7Q6ZMrr0-e14SX">
-    <mxGraphModel dx="1084" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1730" dy="1835" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-122" target="Zy_68_N8UqbTIsB8ShXR-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-122" value="入侵检测线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="30" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-123" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
-          <mxGeometry x="475" y="-365" width="40" height="710" as="geometry" />
+          <mxGeometry x="467.5" y="-372.5" width="55" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-125" target="Zy_68_N8UqbTIsB8ShXR-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-125" value="激光实时模式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="120" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-127" target="Zy_68_N8UqbTIsB8ShXR-129">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-127" value="队列保存的实时点云累加、预处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-129" target="Zy_68_N8UqbTIsB8ShXR-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-129" value="实时点云与底图点击进行比较，获取不在底图上的点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-131" target="Zy_68_N8UqbTIsB8ShXR-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-131" value="将不在底图的点进行聚类" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-115" y="370" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-131" target="Zy_68_N8UqbTIsB8ShXR-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-137" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-134" target="Zy_68_N8UqbTIsB8ShXR-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-134" value="电力线模式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="440" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-136" target="Zy_68_N8UqbTIsB8ShXR-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-136" value="雨雾鸟噪去除，保留有效聚类" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="500" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-138" target="Zy_68_N8UqbTIsB8ShXR-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-138" value="电力线入侵检测：将有效点云簇逐个点与预先采样的电力线点云进行距离判断" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-140" value="与预设距离告警距离比较，判断入侵级别，返回入侵点云与起止点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="660" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
