@@ -1,10 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T12:16:51.467Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="EwMobJtX5TWkqmFDTZ77" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T12:24:22.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="7rU2dx0sb1ygZ3x2hN6G" version="23.1.5" type="github">
   <diagram name="第 1 页" id="MczWRd7Q6ZMrr0-e14SX">
-    <mxGraphModel dx="2376" dy="2310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1911" dy="1968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-122" target="Zy_68_N8UqbTIsB8ShXR-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-122" target="Zy_68_N8UqbTIsB8ShXR-156">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-122" value="入侵检测线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -93,6 +96,63 @@
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-153" value="入侵物体图像上画框和起止线&lt;br&gt;入侵结果上传" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-120" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-156" target="Zy_68_N8UqbTIsB8ShXR-158">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-156" value="非实时模式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="115" width="120" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-158" target="Zy_68_N8UqbTIsB8ShXR-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-158" target="Zy_68_N8UqbTIsB8ShXR-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-173" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-158" target="Zy_68_N8UqbTIsB8ShXR-172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-158" value="启动激光雷达预热添加起始帧" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-160" target="Zy_68_N8UqbTIsB8ShXR-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-160" value="均衡模式/白天" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-162" target="Zy_68_N8UqbTIsB8ShXR-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-162" value="实时进行图像检测&lt;br&gt;背景建模判断连续多帧有移动目标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="327.5" width="140" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-164" value="相机检测成功启动激光雷达检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="390" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-166" target="Zy_68_N8UqbTIsB8ShXR-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-166" value="节能模式/白天" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="297" y="260" width="126" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-168" target="Zy_68_N8UqbTIsB8ShXR-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-168" value="间隔启动相机，对前后帧图像进行差分检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="327.5" width="140" height="42.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-170" value="相机检测成功启动激光雷达检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-172" target="Zy_68_N8UqbTIsB8ShXR-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-172" value="节能均衡模式/黑夜" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-174" value="间隔启动激光雷达检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="467.5" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
