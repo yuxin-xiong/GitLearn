@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T12:31:01.469Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="xZfEbCGKKTkw7JrLowPp" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T01:53:12.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="27zQ8WiSVJejxVv3wVSS" version="23.1.5" type="github">
   <diagram name="第 1 页" id="MczWRd7Q6ZMrr0-e14SX">
-    <mxGraphModel dx="1911" dy="799" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2376" dy="2310" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,25 +11,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-122" value="入侵检测线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="30" width="120" height="40" as="geometry" />
+          <mxGeometry x="-520" y="30" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-128" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-125" target="Zy_68_N8UqbTIsB8ShXR-127">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-125" value="激光实时模式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="120" width="110" height="30" as="geometry" />
+          <mxGeometry x="-720" y="120" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-130" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-127" target="Zy_68_N8UqbTIsB8ShXR-129">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-127" value="队列保存的实时点云累加、预处理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="190" width="120" height="40" as="geometry" />
+          <mxGeometry x="-725" y="190" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-129" target="Zy_68_N8UqbTIsB8ShXR-131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-129" value="实时点云与底图点击进行比较，获取不在底图上的点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="-725" y="270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-135" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-131" target="Zy_68_N8UqbTIsB8ShXR-134">
           <mxGeometry relative="1" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-131" value="将不在底图的点进行聚类" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="370" width="120" height="30" as="geometry" />
+          <mxGeometry x="-725" y="370" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-131" target="Zy_68_N8UqbTIsB8ShXR-131">
           <mxGeometry relative="1" as="geometry" />
@@ -47,58 +47,58 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-134" value="电力线模式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="-820" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-139" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-136" target="Zy_68_N8UqbTIsB8ShXR-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-136" value="雨雾鸟噪去除，保留有效聚类" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="500" width="120" height="40" as="geometry" />
+          <mxGeometry x="-820" y="500" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-141" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-138" target="Zy_68_N8UqbTIsB8ShXR-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-138" value="电力线入侵检测：将有效点云簇逐个点与预先采样的电力线点云进行距离判断" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="-820" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-154" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-140" target="Zy_68_N8UqbTIsB8ShXR-153">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-140" value="与预设距离告警距离比较，判断入侵级别，返回入侵点云与起止点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="-730" y="800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-145" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-142" target="Zy_68_N8UqbTIsB8ShXR-144">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-142" value="变电站模式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="440" width="120" height="40" as="geometry" />
+          <mxGeometry x="-650" y="440" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-144" target="Zy_68_N8UqbTIsB8ShXR-146">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-144" value="将有效聚类簇添加进当前检测场景管理" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="500" width="120" height="40" as="geometry" />
+          <mxGeometry x="-650" y="500" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-149" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-146" target="Zy_68_N8UqbTIsB8ShXR-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-146" value="1.将当前聚类簇与历史聚类簇进行距离比较找到匹配物体和新物体&lt;br&gt;2.根据历史轨迹和移动距离对当前管理的物体进行状态更新&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;3.获取有效需要检测的物体" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-75" y="570" width="190" height="70" as="geometry" />
+          <mxGeometry x="-685" y="570" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-148" target="Zy_68_N8UqbTIsB8ShXR-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-148" value="将有效需要检测的物体与预设的感兴趣底图点云进行距离判断" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="680" width="120" height="60" as="geometry" />
+          <mxGeometry x="-650" y="680" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-153" value="入侵物体图像上画框和起止线&lt;br&gt;入侵结果上传" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="-120" y="900" width="120" height="60" as="geometry" />
+          <mxGeometry x="-730" y="900" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-156" target="Zy_68_N8UqbTIsB8ShXR-158">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-156" value="非实时模式" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="115" width="120" height="35" as="geometry" />
+          <mxGeometry x="-310" y="115" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-161" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-158" target="Zy_68_N8UqbTIsB8ShXR-160">
           <mxGeometry relative="1" as="geometry" />
@@ -110,46 +110,103 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-158" value="启动激光雷达预热添加起始帧" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="180" width="120" height="50" as="geometry" />
+          <mxGeometry x="-310" y="180" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-163" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-160" target="Zy_68_N8UqbTIsB8ShXR-162">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-160" value="均衡模式/白天" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="260" width="120" height="40" as="geometry" />
+          <mxGeometry x="-500" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-165" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-162" target="Zy_68_N8UqbTIsB8ShXR-164">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-162" value="实时进行图像检测&lt;br&gt;背景建模判断连续多帧有移动目标" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="327.5" width="140" height="42.5" as="geometry" />
+          <mxGeometry x="-510" y="327.5" width="140" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-164" value="相机检测成功启动激光雷达检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="390" width="120" height="50" as="geometry" />
+          <mxGeometry x="-500" y="390" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-166" target="Zy_68_N8UqbTIsB8ShXR-168">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-166" value="节能模式/白天" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="297" y="260" width="126" height="40" as="geometry" />
+          <mxGeometry x="-313" y="260" width="126" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-171" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-168" target="Zy_68_N8UqbTIsB8ShXR-170">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Zy_68_N8UqbTIsB8ShXR-168" value="间隔启动相机，对前后帧图像进行差分检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="290" y="327.5" width="140" height="42.5" as="geometry" />
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-168" value="间隔启动相机，对两次启动的帧图像进行差分检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="327.5" width="140" height="42.5" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-170" value="相机检测成功启动激光雷达检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="400" width="120" height="40" as="geometry" />
+          <mxGeometry x="-310" y="400" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-175" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-172" target="Zy_68_N8UqbTIsB8ShXR-174">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-172" value="节能均衡模式/黑夜" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="467.5" y="260" width="120" height="40" as="geometry" />
+          <mxGeometry x="-142.5" y="260" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Zy_68_N8UqbTIsB8ShXR-174" value="间隔启动激光雷达检测" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="467.5" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="-142.5" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-181" target="Zy_68_N8UqbTIsB8ShXR-122">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-181" target="Zy_68_N8UqbTIsB8ShXR-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-181" value="防外破算法程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-142" y="-110" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-182" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-181" target="Zy_68_N8UqbTIsB8ShXR-181">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-187" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-184" target="Zy_68_N8UqbTIsB8ShXR-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-184" value="弧垂检测线程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-189" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-186" target="Zy_68_N8UqbTIsB8ShXR-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-186" value="初始化：从config文件获取电力线挂点信息，拟合电力线曲线方程，通过拟合的方程采样保存电力线预采样点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="140" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-191" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-188">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-194" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-188">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-198" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-188" target="Zy_68_N8UqbTIsB8ShXR-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-188" value="从实时点云中获取电力线点云：高程滤波，滤波后点云与预采样点进行距离比较分出多股电力线" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-193" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="Zy_68_N8UqbTIsB8ShXR-192">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="470" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-192" value="根据拟合的曲线方程与挂点信息计算弧垂距离" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-196" value="将有效电力线点分段获取z值最低点，与配置文件挂点信息拟合曲线方程" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="440" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zy_68_N8UqbTIsB8ShXR-197" target="Zy_68_N8UqbTIsB8ShXR-196">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Zy_68_N8UqbTIsB8ShXR-197" value="将每股电力线进行线条拟合获取有效电力线点" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
